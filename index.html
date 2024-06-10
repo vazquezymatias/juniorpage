@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Junior</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container_container">
+        <header  class="container_header">
+        <nav class="container_nav">
+            <div class="container_usuario">
+                <a>
+                    <img id="usuario" class="iconos" src="imagenes/usuarioblanco.png">
+                </a> 
+            </div>
+            <div class="container_logo">
+                <!-- <p id="logo">LOGO</p> -->
+                <img  class="logo" src="imagenes/logodefinitivo.png">
+            </div >
+            <div class="container_corazonybuscador">
+                <div class="container_buscador">
+                    <a>
+                        <img id="buscador" class="iconos" src="imagenes/buscadorssosoblanco.png">
+                    </a>
+                </div>
+                <div class="container_corazon">
+                    <a>
+                        <img id="corazon" class="iconos" src="imagenes/corazonblancosi.png">
+                        <div class="mensaje_donacion">
+                            <p>¡Dona en<br> 2 minutos!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <div id="inicio" class="container_inicio">  
+            <div class="textos_inicio">
+                <h1 id="h1">Cambio Climático: Impacto y Acción</h1>
+                <h4 id="h4">Descubre el impacto del cambio climático y toma acción por un futuro sostenible</h4>
+            </div>
+            <div class="circulo_inicio">
+            </div>
+        </div>
+
+        <div class="container_login">
+            <div class="comentario">
+                <img id="cruzuser" src="imagenes/equis.png">
+                <img src="imagenes/usuariologoverde.png">
+                <h1>Iniciar Sesion</h1>
+            </div>
+            <form method="post" class="container_formulario_login">
+                <div class="login_formularios">
+                    <div class="nombreyapellido">
+                        <label for="nombre">Nombre</label><br>
+                        <input class="inputs_form_login" id="nombre" type="text"><br>
+                        <label for="apellido">Apellido</label><br>
+                        <input class="inputs_form_login" id="apellido" type="text"><br>
+                    </div><br>
+                    <div class="tipoydni">
+                        <label for="email">Email</label><br>
+                        <input class="inputs_form_login" type="email" id="email">
+                        <label for="contraseña">Contraseña</label><br>
+                        <input class="inputs_form_login" id="contraseña" type="password"><br>
+                    </div>
+                    <div class="botonlogin">
+                        <input id="botonlogin" type="submit" value="Iniciar" >
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container_donaciones">
+            <img id="cruz" src="imagenes/equis.png">
+            <div class="comentario">
+                <img id="corazonverde" src="imagenes/corazonverde.png">
+                <h1>Dona Ahora</h1>
+            </div>
+            <form method="post" class="container_formulario">
+                <div class="donacion_montos"> 
+                    <input type="checkbox" id="checkbox1" class="grupo">
+                    <label for="checkbox1">$1000</label>
+        
+                    <input type="checkbox" id="checkbox2" class="grupo">
+                    <label for="checkbox2">$2000</label>
+        
+                    <input type="checkbox" id="checkbox3" class="grupo">
+                    <label for="checkbox3">$3000</label>
+        
+                    <input type="checkbox" id="checkbox4" class="grupo">
+                    <label for="checkbox4">$5000</label>
+                </div>
+                <div class="donacion_formularios">
+                    <div class="nombreyapellido">
+                        <label for="nombre">Nombre</label><br>
+                        <input class="inputs_form" id="nombre" type="text"><br>
+                        <label for="apellido">Apellido</label><br>
+                        <input class="inputs_form" id="apellido" type="text"><br>
+                    </div><br>
+                    <div class="tipoydni">
+                        <label for="tipodni">Tipo de DNI</label><br>
+                        <select class="inputs_form" id="tipodni">
+                            <option>DNI</option>
+                            <option>CUIT</option>
+                            <option>CIPE</option>
+                            <option>CARNET</option>
+                        </select><br>
+                        <label for="dni">DNI</label><br>
+                        <input class="inputs_form" id="dni" type="number"><br>
+                    </div>
+                    <div class="boton">
+                        <input id="boton" type="submit" value="Donar" >
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container_cambioclimatico">
+            
+            <div class="container_plantilla">
+                <div class="plantillasder">
+                        <!-- <h2 id="titulo1" class="titulo">¿Sabias que?</h2> -->
+                        <img class="imagen_pder" src="imagenes/primeraimagen.jpg">
+                        <p class="texto_izq">La emisión de gases de efecto invernadero, especialmente el dióxido de carbono (CO2), está contribuyendo al calentamiento global y al cambio climático. Estas emisiones provienen principalmente de la quema de combustibles fósiles para la energía y el transporte, así como de la deforestación.
+                        </p>
+                </div>
+                <div id="plantilla2" class="plantillasizq">
+                    <!-- <h2 id="titulo1" class="titulo">¿Sabias que?</h2> -->
+                    <img class="imagen_pizq" src="imagenes/segundaimagen.jpg">
+                    <p class="texto_izq">El cambio climático está provocando fenómenos meteorológicos extremos más frecuentes y severos, como huracanes intensificados, olas de calor prolongadas, sequías y inundaciones. Estos eventos tienen un impacto devastador en comunidades vulnerables, especialmente en regiones de bajos ingresos que tienen menos capacidad para adaptarse y recuperarse.
+                    </p>
+        
+                </div>
+                <div class="plantillasder">
+                    <!-- <h2 id="titulo1" class="titulo" visibility="hidden">¿Sabias que?</h2> -->
+                    <img class="imagen_pder" src="imagenes/terceraimagen.jpg">
+                    <p class="texto_izq">La acidificación de los océanos debido al aumento de CO2 atmosférico está afectando a los ecosistemas marinos, especialmente a los arrecifes de coral y a las especies que dependen de ellos. Esto tiene consecuencias negativas para la pesca, el turismo y la biodiversidad marina en general.
+                    </p>
+        
+                </div>
+                <div class="plantillasizq">
+                    <!-- <h2 id="titulo1" class="titulo">¿Sabias que?</h2> -->
+                    <img class="imagen_pizq" src="imagenes/glaciiar1.jpeg">
+                    <p class="texto_izq">El derretimiento de los casquetes de hielo en el Ártico y la Antártida está contribuyendo al aumento del nivel del mar, lo que representa una amenaza para las comunidades costeras en todo el mundo. Se estima que millones de personas podrían verse desplazadas debido a la inundación de tierras bajas y la pérdida de infraestructura costera.
+                    </p>
+                </div>
+                <div class="tierra">
+                    <img class="tierraimagen" src="imagenes/earth.svg">
+                    
+                
+                </div>
+            </div>
+        </div>
+        <div class="container_enlaces_header">
+        <div class="container_enlaces">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#noticias">Noticias</a>
+            <a id="donacion1">Donar</a>
+        </div>
+        </div>
+        <div class="container_banner">
+            <div class="container_slider">
+                <div class="slider">
+                    <div class="mensaje_slider-1">
+                        <!-- <p>Hoy juega BOKAAAAAAAAAA</p> -->
+                    </div>
+                    <img  class="bannerimg" id="imagen-1"src="imagenes/1glaciar.png">
+                </div>
+                <div class="slider">
+                    <div class="mensaje_slider-2">
+                        <!-- <p>Hoy juasdasdddddAAAAAA</p> -->
+                    </div>
+                    <img  class="bannerimg" id="imagen-2"src="imagenes/2glaciar.png">
+                </div>
+                <div class="slider">
+                    <div class="mensaje_slider-3">
+                        <!-- <p>HoasddddddddddAAAAAAAAA</p> -->
+                    </div>
+                    <img  class="bannerimg" id="imagen-3" src="imagenes/3glaciar.png">
+                </div>
+            </div>
+        <div class="slider_nav">
+            <a id="s1" class="slider-1" href="#imagen-1"></a>
+            <a id="s2" class="slider-2" href="#imagen-2"></a>
+            <a id="s3" class="slider-3" href="#imagen-3"></a>
+        </div>
+        <div class="container_flechasbanner">
+            <div class="container_fizquierda" >
+                <img id="fimg1"class="flechas" src="imagenes/left_angle_circle_icon_149919.png">
+            </div>
+            <div id ="intervalo" class="container_fderecha">
+                <img id="fimg2"class="flechas" src="imagenes/right_angle_circle_icon_149877.png">
+            </div>
+        </div>
+        </div>
+        <div class="container_enlaces_article">
+        <!-- <div class="container_enlaces">
+            <a href="inicio">Inicio</a>
+            <a href="tallel">Talle l</a>
+            <a href="talles">Talle s</a>
+            <a href="tallex">Talle x</a>
+        </div> -->
+        </div>
+        <article id="productos" class="container_article">
+            <img id="barra_article" src="imagenes/menubarrablanco.png">
+            <section> 
+             <div class="article__contenedor" tabindex="1">
+             </div>
+            </section>
+            <section>
+ 
+            </section>
+        </article>
+         <!-- <article class="container_article">
+        <section class="container_section"">
+            <p>Seccion
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae natus nihil unde? Magnam laudantium modi voluptates obcaecati hic! Architecto assumenda, quis ex eaque dolor nulla illum ipsum dolore natus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iusto facere dolores, non aliquid alias vero accusantium nesciunt praesentium quod officia voluptas hic quisquam explicabo temporibus nemo natus eaque nostrum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloremque, deserunt modi porro consectetur fugit natus saepe enim exercitationem accusantium provident, nisi vitae error omnis fugiat cupiditate aliquid eligendi. Harum?
+            </p>
+        </section>
+        </article> -->
+        <aside class="container_aside">
+            <div class="contenedor_articulos">
+            <img id="cruz_aside" src="imagenes/equis.png">
+            <div id="articulo1"class="articulos">
+                <div id="texto1"class="textos">
+                    <h2 class="titulo">Caracteristicas</h2>
+                    <div class="opciones_barra">
+                        <p id="parrafo1" class="texto">Ver Todo</p>
+                        <p id="parrafo1" class="texto">Remeras</p>
+                        <p id="parrafo1" class="texto">Zapatillas</p>
+                        <p id="parrafo1" class="texto">Buzos</p>
+                    </div>
+                </div>
+                <div id="art1" class="botones_aside">
+                    <img  id="f1"class="iconosas" src="iconos/flechaabajo.svg">
+                </div>
+            </div>
+            <div id="articulo2"class="articulos">
+                <div id="texto2"class="textos">
+                    <h2 class="titulo">articulo 2</h2>
+                    <p id="parrafo2" class="texto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, debitis sit velit distinctio molestiae sint iste temporibus enim. Accusamus quis ipsam provident. Sit praesentium vel alias ex fugit exercitationem a.
+                    </p>
+                </div>
+                <div id="art2" class="botones_aside">
+                    <img  id="f2"class="iconosas" src="iconos/flechaabajo.svg">
+                </div>
+            </div>
+            <div id="articulo3"class="articulos">
+                <div id="texto3"class="textos">
+                    <h2 class="titulo">articulo 3</h2>
+                    <p id="parrafo3" class="texto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, debitis sit velit distinctio molestiae sint iste temporibus enim. Accusamus quis ipsam provident. Sit praesentium vel alias ex fugit exercitationem a.
+                    </p>
+                </div>                
+                <div id="art3" class="botones_aside">
+                    <img  id="f3"class="iconosas" src="iconos/flechaabajo.svg">
+                </div>
+            </div>
+            <div id="articulo4"class="articulos">
+                <div id="texto4"class="textos">
+                    <h2 class="titulo">articulo 4</h2>
+                    <p id="parrafo4" class="texto">
+                        Lorem ipsvelit distinctio molestiae sint iste temporibus enim. Accusamus quis ipsam provident. Sit praesentium vel alias dsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssex fugit exercitationem a.
+                    </p>
+                </div>
+                <div id="art4" class="botones_aside">
+                    <img  id="f4"class="iconosas" src="iconos/flechaabajo.svg">
+                </div>
+            </div>
+            </div>
+        </aside>
+        <div class="container_portal_noticias">
+        <div class="container_noticias">
+            <div id="noticias" class="titulo_portal">
+                
+                <h2>Portal de Noticias</h2>
+                
+            </div>
+            <div class="noticias">
+                <div id="noticia-1" class="noticia">
+                    <img class="imagen_noticia" src="imagenes/primeranoticia.jpg">
+                    <p class="fecha_noticia">26 abril 2024</p>
+                    <a id="titulo-1" href="https://www.greenpeace.org/argentina/blog/problemas/bosques/asi-se-ve-la-deforestacion-en-argentina-en-10-fotos-impactantes/" target="_blank" class="titulo_noticia">Así se ve la deforestación en Argentina en 10 fotos impactantes</a>
+                </div>
+                <div id="noticia-2" class="noticia">
+                    <img class="imagen_noticia" src="imagenes/segundanoticia.avif">
+                    <p class="fecha_noticia">Fecha de Noticia</p>
+                    <a id="titulo-2" href="https://www.infobae.com/america/medio-ambiente/2024/04/27/el-cambio-climatico-causa-tambien-olas-de-frio-extremo-en-los-oceanos-causando-la-muerte-de-animales-marinos/" target="_blank" class="titulo_noticia">El cambio climático causa también olas de frío extremo en los océanos </a>
+    
+                </div>
+                <div id="noticia-3" class="noticia">
+                    <img class="imagen_noticia" src="imagenes/terceranoticia.webp">
+                    <p class="fecha_noticia">Fecha de Noticia</p>
+                    <a id="titulo-3" href="https://www.perfil.com/noticias/reperfilar/por-el-cambio-climatico-la-mortalidad-aumento-un-140-en-los-ultimos-20-anos.phtml" target="_blank" class="titulo_noticia">Por el Cambio Climático la mortalidad aumentó un 140% en los últimos 20 años</a>
+    
+                </div>
+                <div id="noticia-4" class="noticia">
+                    <img class="imagen_noticia" src="imagenes/cuartanoticia.jpg">
+                    <p class="fecha_noticia">Fecha de Noticia</p>
+                    <a id="titulo-4" href="https://www.clarin.com/sociedad/calentamiento-global-2024-temperatura-tierra-superara-primera-vez-peligrosa-barrera_0_6TiJCVSTxj.html" target="_blank" class="titulo_noticia">Calentamiento global: en 2024 la temperatura de la Tierra superará por primera vez una peligrosa barrera</a>
+    
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer class="container_footer">
+            <div class="footer_iconos">
+                <a class="instagram" href="https://www.instagram.com/matiasvazquez18/" target="_blank">
+                    <img class="iconos_footer" src="imagenes/instagram.png">
+                </a>
+                <a class="youtube" href="https://www.youtube.com/@GreenpeaceArgentina" target="_blank">
+                    <img class="iconos_footer" src="imagenes/youtubeblanco.png">
+                </a>
+                <a class="twitter" href="https://twitter.com/home" target="_blank">
+                    <img class="iconos_footer" src="imagenes/twitterblanco.png">
+                </a>
+                <a class="facebook" href="https://www.facebook.com/" target="_blank">
+                    <img class="iconos_footer" src="imagenes/facebookblanco.png">
+                </a>
+            </div>
+            <div class="footer_links">
+                <div class="nav_footer">
+                    <nav class="lista_footer">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li id="donacion2">Donar</li>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li>Contacto:2657396564</li>
+                        <li>Gmail: matiasjvazquez@sanluis.edu.ar</li>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

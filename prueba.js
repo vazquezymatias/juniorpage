@@ -1,0 +1,12 @@
+document.getElementById("noticia-1").addEventListener("click",()=>{
+  document.getElementById("titulo-1").click()
+})
+document.getElementById("noticia-2").addEventListener("click",()=>{
+  document.getElementById("titulo-2").click()
+})
+document.getElementById("noticia-3").addEventListener("click",()=>{
+  document.getElementById("titulo-3").click()
+})
+document.getElementById("noticia-4").addEventListener("click",()=>{
+  document.getElementById("titulo-4").click()
+})
